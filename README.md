@@ -2,7 +2,7 @@
 
 # Comandos de ejecución.
 
-!. Crear una carpeta build en el lugar donde se clona el codigo.
+1. Crear una carpeta build en el lugar donde se clona el codigo.
 2. En el terminal poner cmake .. en la carpeta build.
 3. Los comandos funcionales son:
   3.1. make test    ----- Compillar y ejecutar el test de prueba
