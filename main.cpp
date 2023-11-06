@@ -1,11 +1,11 @@
 #include <iostream>
 #include <vector>
 #include <random>
-#include "SStree.cpp"
+#include "SStree.h"
 
 int main() {
     // Create a random number generator
-    /*std::random_device rd;
+    std::random_device rd;
     std::mt19937 gen(rd());
     std::uniform_real_distribution<> dis(-1000.0, 1000.0);
 
@@ -20,13 +20,15 @@ int main() {
     SsTree tree;
     for (auto& point : points) {
         tree.insert(point);
-    }*/
+    }
+
+    tree.print();
     /*std::string filename = "sstree.dat";
     tree.saveToFile(filename);
 
     std::cout << "Tree saved to file " << filename << std::endl;*/
-    SsTree tree;  // Clean the tree
+    /*SsTree tree;  // Clean the tree
     tree.loadFromFile("./build/embbeding.dat");
-    tree.print();
+    tree.print();*/
     return 0;
 }
